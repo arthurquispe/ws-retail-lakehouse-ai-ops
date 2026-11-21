@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Variables de entorno y credenciales AWS
+.env
+*.pem
+*.key
+
+# Datos locales generados
+data/
+*.csv
+*.parquet
